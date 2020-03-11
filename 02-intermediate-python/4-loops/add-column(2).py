@@ -10,3 +10,8 @@ cars = pd.read_csv('cars.csv', index_col=0)
 # Use .apply(str.upper)
 cars['COUNTRY'] = cars['country'].apply(str.upper)
 
+
+#for lab, row in brics.iterrows() :
+#    brics.loc[lab, "name_length"] = len(row["country"])
+#
+#brics["name_length"] = brics["country"].apply(len)
