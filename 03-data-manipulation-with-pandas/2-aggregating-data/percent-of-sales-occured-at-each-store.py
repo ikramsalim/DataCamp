@@ -1,3 +1,9 @@
+"""
+\Calculate the total weekly sales over the whole dataset.
+Subset for type "A" stores, and calculate their total weekly sales.
+Do the same for type "B" and type "C" stores.
+Combine the A/B/C results into a list, and divide by overall sales to get the proportion of sales by type.
+"""
 # Calc total weekly sales
 print(sales.to_string())
 sales_all = sales["weekly_sales"].sum()
