@@ -1,6 +1,7 @@
 """
 Print the head of the homelessness DataFrame.
 """
+import pandas as pd
 # Print the head of the homelessness data
 print(homelessness.head())
 
