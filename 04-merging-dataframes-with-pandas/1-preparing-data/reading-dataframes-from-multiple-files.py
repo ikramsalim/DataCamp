@@ -20,3 +20,9 @@ gold = pd.read_csv('Gold.csv')
 # Print the first five rows of gold
 print(gold.head())
 
+
+
+"""
+When data is spread among several files, you usually invoke pandas' read_csv() (or a similar data import function) 
+multiple times to load the data into several DataFrames
+"""
